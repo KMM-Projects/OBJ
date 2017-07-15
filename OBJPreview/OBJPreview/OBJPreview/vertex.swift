@@ -14,6 +14,7 @@ class Vertex {
     private var _y: Double!
     private var _z: Double!
     private var _w: Double!
+    private var _vertexID: Int!
     
     var x: Double { // Float! dont garante the Float
         get {
@@ -49,14 +50,32 @@ class Vertex {
         }
     }
     
+    var vertexID: Int {
+        get {
+        return _vertexID
+        }
+        set {
+        _vertexID = newValue
+        }
+    }
+    
     
     //constructor
     
-    init(x_axis: Double,y_axis: Double, z_axis:Double, w_optional: Double){
+    init(x_axis: Double,y_axis: Double, z_axis:Double, w_optional: Double, v_id: Int){
         self._x = x_axis * 100.00
         self._y = y_axis * 100.00
         self._z = z_axis * 100.00
         self._w = w_optional
+        self._vertexID = v_id
+    }
+    
+    func getInfo() -> String {
+      return String(vertexID) + " " + String(x) + " " + String(y) + " " + String(z)
+    }
+    
+    func getID() -> String {
+      return String(vertexID)
     }
 
 }

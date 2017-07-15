@@ -12,21 +12,22 @@ import Foundation
 class DrawObject {
 
     var arrayOfFaces = [Faces]() //array of faces
+    var vertexArray = [Vertex]() //array of vertices
     var _number : Int!
 
 
     init(number: Int){
         self._number = number
-        let vertex = Vertex(x_axis: 0.0,y_axis: 0.0, z_axis: 0.0, w_optional: 0.0)
-        let face = Faces(order: 1)
-        face.arrayOfVertex.append(vertex)
-        self.arrayOfFaces.append(face) //init the arrays
+//        let vertex = Vertex(x_axis: 0.0,y_axis: 0.0, z_axis: 0.0, w_optional: 0.0, v_id: 0)
+//        let face = Faces(order: 1)
+//        face.arrayOfVertex.append(vertex)
+//        self.arrayOfFaces.append(face) //init the arrays
     }
     
     func loadFile(){
     //load file
     //parse strings
-        var vertexArray = [Vertex]()
+       
         if let path = Bundle.main.path(forResource: "cylinder", ofType: "obj"){
             do {
                 let data = try String(contentsOfFile: path, encoding: .utf8)
@@ -40,6 +41,7 @@ class DrawObject {
                     //let charAtIndex = correctLine[correctLine.index(correctLine.startIndex, offsetBy: 2)]
                     //start vertex load
                     if correctLine.hasPrefix("v")  {
+                        print(correctLine)
                         //delete "v" and extra " " from begining
                         correctLine.remove(at: correctLine.startIndex)
                         correctLine.remove(at: correctLine.startIndex)
@@ -51,7 +53,8 @@ class DrawObject {
                           
                         }
                             // array of number convert to array of vertecies
-                        vertexArray.append(Vertex(x_axis: doubleArray[0],y_axis: doubleArray[1], z_axis: doubleArray[2], w_optional: 0.0))
+                        vertexArray.append(Vertex(x_axis: doubleArray[0],y_axis: doubleArray[1], z_axis: doubleArray[2], w_optional: 0.0, v_id:vertexArray.count))
+                        print(vertexArray[vertexArray.count-1].getInfo())
                         doubleArray.removeAll()
                         //
                         
@@ -75,10 +78,10 @@ class DrawObject {
                         arrayOfFaces.append(newFace)
                     }
    }
-                print(vertexArray)
-                print(arrayOfFaces)
-                print(vertexArray.count)
-                print(arrayOfFaces.count)
+//                print(vertexArray)
+//                print(arrayOfFaces)
+//                print(vertexArray.count)
+//                print(arrayOfFaces.count)
                 
                 
                 

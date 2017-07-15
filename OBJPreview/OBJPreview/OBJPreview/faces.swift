@@ -41,5 +41,15 @@ class Faces {
     func addVertex(vertex: Vertex){
         arrayOfVertex.append(vertex)
     }
-
+    //get info method
+    
+    func getInfo() -> String {
+    
+        var facesInfo:String = "F(" + String(order) + "): "
+        for index in 0..<arrayOfVertex.count {
+         facesInfo = facesInfo + " " + String(arrayOfVertex[index].getID())
+        }
+        
+        return facesInfo
+    }
 }

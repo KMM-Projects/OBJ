@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "OBJPreview/Vertex.swift"
-            timestampString = "520658670.886553"
+            timestampString = "521787399.333586"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "27"
-            endingLineNumber = "27"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
             landmarkName = "y"
             landmarkType = "24">
          </BreakpointContent>
@@ -138,11 +138,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "OBJPreview/drawObject.swift"
-            timestampString = "521543697.207445"
+            timestampString = "521788653.548621"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
             landmarkName = "loadFile()"
             landmarkType = "7">
          </BreakpointContent>
@@ -154,11 +154,136 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "OBJPreview/drawObject.swift"
-            timestampString = "521543697.207445"
+            timestampString = "521790415.201938"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "loadFile()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OBJPreview/ViewController.swift"
+            timestampString = "521785519.608916"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "11"
+            endingLineNumber = "11"
+            landmarkName = "ViewController"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OBJPreview.ViewController.__deallocating_deinit"
+                  moduleName = "OBJPreview"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/patrikkemeny/Documents/iOS/Portfolio/OBJPreview/OBJPreview/OBJPreview/ViewController.swift"
+                  timestampString = "521785785.484447"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OBJPreview.ViewController.init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; OBJPreview.ViewController"
+                  moduleName = "OBJPreview"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/patrikkemeny/Documents/iOS/Portfolio/OBJPreview/OBJPreview/OBJPreview/ViewController.swift"
+                  timestampString = "521785785.48809"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "72">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OBJPreview.ViewController.__allocating_init (nibName : Swift.Optional&lt;Swift.String&gt;, bundle : Swift.Optional&lt;__ObjC.Bundle&gt;) -&gt; OBJPreview.ViewController"
+                  moduleName = "OBJPreview"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/patrikkemeny/Documents/iOS/Portfolio/OBJPreview/OBJPreview/OBJPreview/ViewController.swift"
+                  timestampString = "521785785.490554"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "23">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OBJPreview.ViewController.__allocating_init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;OBJPreview.ViewController&gt;"
+                  moduleName = "OBJPreview"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/patrikkemeny/Documents/iOS/Portfolio/OBJPreview/OBJPreview/OBJPreview/ViewController.swift"
+                  timestampString = "521785785.493251"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OBJPreview.ViewController.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;OBJPreview.ViewController&gt;"
+                  moduleName = "OBJPreview"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/patrikkemeny/Documents/iOS/Portfolio/OBJPreview/OBJPreview/OBJPreview/ViewController.swift"
+                  timestampString = "521785785.495583"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "31">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OBJPreview/faces.swift"
+            timestampString = "521788590.04635"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "getInfo()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OBJPreview/drawObject.swift"
+            timestampString = "521790415.201938"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "56"
+            endingLineNumber = "56"
             landmarkName = "loadFile()"
             landmarkType = "7">
          </BreakpointContent>
